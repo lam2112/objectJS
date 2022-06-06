@@ -59,7 +59,6 @@
 //*some
 //**Kiem tra phan tu thoa man dieu kien (1 -> true) */
 {
-  // ll
 //   var courses = [
 //     {
 //       name: "javascrip",
