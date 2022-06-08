@@ -3,9 +3,11 @@ html{
     box-sizing: border-box;
 }
 
-ol{
-
-    display: inline-block;
+.bang{
+    background-color :rgb(134, 240, 93);
+    display: flex;
+    list-style-type: none;
+    margin: 0;
 }
 
 li{
@@ -15,9 +17,10 @@ li{
 }
 
 li a{
+    line-height: 30px;
     text-decoration: none;
 }
 
-li:hover {
+.bang li:hover {
     background-color: aqua;
 }
