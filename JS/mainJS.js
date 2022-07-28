@@ -2,21 +2,21 @@
 //** Duyet tung phan tu trong Object */
 
 {
-  // var courses = [
-  //     'Java script',
-  //     'php',
-  //     'ruby'
-  // ]
-  // Array.prototype.forEach2 = function(callback){
-  //     for (var index in this){
-  //         if (this.hasOwnProperty(index)){ //loai bo phuong thuc proto
-  //             callback(this[index], index, this); //goi lai phuong thuc trong forEach2
-  //         }
-  //     }
-  // }
-  // courses. forEach2(function(course, index, array){
-  //    console.log(course, index, array);
-  // })
+  var courses = [
+      'Java script',
+      'php',
+      'ruby'
+  ]
+  Array.prototype.forEach2 = function(callback){
+      for (var index in this){
+          if (this.hasOwnProperty(index)){ //loai bo phuong thuc proto
+              callback(this[index], index, this); //goi lai phuong thuc trong forEach2
+          }
+      }
+  }
+  courses. forEach2(function(course, index, array){
+     console.log(course, index, array);
+  })
 }
 
 //*filter
